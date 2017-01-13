@@ -1,0 +1,39 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+.sect {
+	background-color: grey;
+	box-sizing: border-box;
+	/*margin: 10px;
+	padding: 20px;*/
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;	
+	position: relative;
+}
+
+.boxName {
+	box-sizing: border-box;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px; 
+	/* TODO box size 30% */
+	width: 30%;
+	/*float: right;*/
+	left: 70%;
+	position: relative;
+}
+
+.textBox {
+	position: relative;
+	padding: 10px;
+}
+
+.chicken {
+	background-color: pink;
+
+}
