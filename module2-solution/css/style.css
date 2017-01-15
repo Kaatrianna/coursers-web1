@@ -5,15 +5,50 @@
 	padding: 0px;
 }
 
+.row {
+	width: 100%;
+}
+
+@media (min-width: 992px) {
+	.col-lg-4 {
+		float: left;
+		width: 33.3%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		float: left;
+		width: 50%;
+	}
+
+	.col-md-12 {
+		float: left;
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+	.col-sm-12 {
+		float: left;
+		width: 100%
+	}
+}
+
+.header {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
 .sect {
 	background-color: grey;
 	box-sizing: border-box;
-	/*margin: 10px;
-	padding: 20px;*/
+	margin: 10px;
 	border-color: black;
 	border-style: solid;
 	border-width: 1px;	
 	position: relative;
+
 }
 
 .boxName {
@@ -21,9 +56,7 @@
 	border-color: black;
 	border-style: solid;
 	border-width: 1px; 
-	/* TODO box size 30% */
 	width: 30%;
-	/*float: right;*/
 	left: 70%;
 	position: relative;
 }
@@ -37,3 +70,13 @@
 	background-color: pink;
 
 }
+
+.beef {
+	background-color: red;
+}
+
+.sushi {
+	background-color: rgb(229,209,152);
+}
+
+
